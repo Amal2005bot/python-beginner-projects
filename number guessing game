@@ -1,0 +1,13 @@
+import random
+def guess(x):
+    random_num = random.randint(1, 10)
+    guess =0
+    while guess != random_num:
+        guess = int(input("guess a number between 1 and 10 : "))
+        if guess < random_num:
+            print("too low")
+        elif guess> random_num:
+            print("too high") 
+
+    print("congrats" )           
+guess(10)
