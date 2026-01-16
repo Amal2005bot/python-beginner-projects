@@ -1,0 +1,24 @@
+import random
+def play():
+    user =input("what is your choice 'r' for rock, 'p' for paper, 's' for scissors : ")
+    computer = random.choice(['r','p','s'])
+
+    print("you chose" , user)
+    print("opponent chose" , computer)
+    player(user,computer)
+
+    def player(player,computer):
+        if (player=='r'and computer=='s') or (player=='s' and computer == 'p')\
+            or (player == 'p' and computer=='r'):
+            print("you won")
+        elif player == computer:
+            print("it's a tie")
+        else :
+            print("you lost")
+while True:
+ play()
+ choice = input("play again? [y/n]")
+ if choice !='y':
+  break
+ else :
+     print("thankyou for playing")
