@@ -4,6 +4,7 @@ This repository contains beginner level python mini projects created while learn
 - number guessing game
 - rock paper scissors
 - TicTacToe
+- credit card validator
 
 ## concept covered 
 - variables and data types
@@ -15,4 +16,4 @@ This repository contains beginner level python mini projects created while learn
 - control flow
 - data structures
 ## purpose
-This repository id meant for practice and learning, showing my progession as a beginner in Python. 
+This repository is meant for practice and learning, showing my progession as a beginner in Python. 
